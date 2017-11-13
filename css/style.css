@@ -1,0 +1,45 @@
+
+
+.box{
+
+	width: 500px;
+	height: 400px;
+	background: red;
+	box-shadow: 0px 0px 8px 7px #272822;
+	margin:50px auto;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 6px 5px 2px #000;
+	animation-name: imon;
+	animation-duration: 15s;
+	position: absolute;
+	transition: 2s;
+}
+
+@keyframes imon{
+
+	0% {background-color: green; color: yellow; left:0px; top:0px; }
+	25% {background-color: #1A5276; color: yellow; left:800px; top:0px;}
+	50% {background-color: #9981FF; color: #524F4C; left:800px; top:300px;}
+	75% {background-color: #303E7D; color: #FE370E; left:0px; top:300px;}
+	100% {background-color: #55ed44; color: #6E6E6E; left:0px; top:0px;}
+
+}
+
+.box:hover{
+
+	width:700px;
+	height: 500px;
+	font-size: 100px;
+	background: blue;
+	border-radius:6%;
+}
+
+.boxu{
+	width: 500px;
+	height: 500px;
+	background: linear-gradient(red;yellow;orange );
+}
